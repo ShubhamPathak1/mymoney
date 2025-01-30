@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.navlink {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: blue;
+}
