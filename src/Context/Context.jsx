@@ -2,7 +2,7 @@ import { createContext, useReducer } from "react";
 
 export const Context = createContext();
 
-localStorage.clear();
+// localStorage.clear();
 
 const currTransactionsLists = {
   transactions: JSON.parse(localStorage.getItem("transactions")) || [],
